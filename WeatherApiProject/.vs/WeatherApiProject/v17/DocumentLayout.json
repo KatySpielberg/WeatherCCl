@@ -1,0 +1,75 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\git\\WeatherApiProject\\WeatherApiProject\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{D71E7EA7-75FB-4CEE-96D9-FC8C058997AC}|WeatherApiProject.csproj|c:\\git\\weatherapiproject\\weatherapiproject\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D71E7EA7-75FB-4CEE-96D9-FC8C058997AC}|WeatherApiProject.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D71E7EA7-75FB-4CEE-96D9-FC8C058997AC}|WeatherApiProject.csproj|c:\\git\\weatherapiproject\\weatherapiproject\\controllers\\weathercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D71E7EA7-75FB-4CEE-96D9-FC8C058997AC}|WeatherApiProject.csproj|solutionrelative:controllers\\weathercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D71E7EA7-75FB-4CEE-96D9-FC8C058997AC}|WeatherApiProject.csproj|c:\\git\\weatherapiproject\\weatherapiproject\\models\\weatherresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D71E7EA7-75FB-4CEE-96D9-FC8C058997AC}|WeatherApiProject.csproj|solutionrelative:models\\weatherresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 121,
+          "SelectedChildIndex": 1,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\git\\WeatherApiProject\\WeatherApiProject\\Program.cs",
+              "RelativeDocumentMoniker": "Program.cs",
+              "ToolTip": "C:\\git\\WeatherApiProject\\WeatherApiProject\\Program.cs",
+              "RelativeToolTip": "Program.cs",
+              "ViewState": "AgIAAAEAAAAAAAAAAAAkwA0AAAAVAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-06T19:56:15.342Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "WeatherController.cs",
+              "DocumentMoniker": "C:\\git\\WeatherApiProject\\WeatherApiProject\\Controllers\\WeatherController.cs",
+              "RelativeDocumentMoniker": "Controllers\\WeatherController.cs",
+              "ToolTip": "C:\\git\\WeatherApiProject\\WeatherApiProject\\Controllers\\WeatherController.cs",
+              "RelativeToolTip": "Controllers\\WeatherController.cs",
+              "ViewState": "AgIAACEAAAAAAAAAAAAYwDUAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-06T19:54:18.599Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "WeatherResponse.cs",
+              "DocumentMoniker": "C:\\git\\WeatherApiProject\\WeatherApiProject\\Models\\WeatherResponse.cs",
+              "RelativeDocumentMoniker": "Models\\WeatherResponse.cs",
+              "ToolTip": "C:\\git\\WeatherApiProject\\WeatherApiProject\\Models\\WeatherResponse.cs",
+              "RelativeToolTip": "Models\\WeatherResponse.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAYwBMAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-06T19:52:43.3Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
