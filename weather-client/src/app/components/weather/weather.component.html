@@ -1,0 +1,46 @@
+<div>
+  <label>Country:</label>
+  <select [(ngModel)]="selectedCountry" (change)="onCountryChange()">
+    <option *ngFor="let country of countries" [value]="country">{{ country }}</option>
+  </select>
+
+  <label>City:</label>
+  <select [(ngModel)]="selectedCity">
+    <option *ngFor="let city of citiesMap[selectedCountry]" [value]="city">{{ city }}</option>
+  </select>
+
+  <label>Days:</label>
+  <input type="number" [(ngModel)]="days" min="1" max="5" />
+
+  <button (click)="getWeather()">הצג תחזית</button>
+
+  <div *ngIf="currentWeather">
+    <p><strong>Current:</strong> {{ currentWeather }}</p>
+  </div>
+
+  <table *ngIf="forecastData?.forecast?.forecastday">
+    <thead>
+      <tr>
+        <th>Day</th>
+        <th>Condition</th>
+        <th>Temp (°C)</th>
+        <th>Wind (kph)</th>
+        <th>Wind Dir</th>
+        <th>Humidity</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr *ngFor="let day of forecastData.forecast.forecastday">
+        <td>{{ day.date }}</td>
+        <td>
+          {{ day.day.condition.text }}
+          <img [src]="day.day.condition.icon" />
+        </td>
+        <td>{{ day.day.avgtemp_c }}</td>
+        <td>{{ day.day.maxwind_kph }}</td>
+        <td>{{ day.day.wind_dir }}</td>
+        <td>{{ day.day.avghumidity }}</td>
+      </tr>
+    </tbody>
+  </table>
+</div>
